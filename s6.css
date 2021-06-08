@@ -1,0 +1,46 @@
+.register-block__title{
+	margin: 10px;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+
+.register-block{
+	border: 2px solid silver;
+	border-radius: 5px;
+	width: 500px;
+}
+
+.register-block form{
+	display: flex;
+	flex-direction: column;
+}
+
+.register-block form input{
+	margin: 10px;
+	border-radius: 5px;
+	height: 25px;
+	line-height: 20px;
+	font-size: 20px;
+	font-family: sans-serif;
+	border: 1px solid lightgrey;
+}
+
+.register-block form input:focus{
+	border: 1px solid grey;
+}
+
+.register-block form input[type="submit"]{
+	margin: 10px;
+	border-radius: 5px;
+	height: 35px;
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: lightgreen;
+}
+
+.msg{
+	font-size: 15px;
+	font-family: sans-serif;
+	color: red;
+	margin: 10px;
+}
